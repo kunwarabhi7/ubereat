@@ -20,7 +20,7 @@ const filterTypes = (category) => {
     <div className='max-w-[1640px] m-auto px-4 py-12'>
        <h1 className='text-green-600 text-center font-bold text-4xl'>Top Rated Menu Items</h1>
        {/*Filter ROWS */}
-       <div className=' flex-col lg:flex-row justify-between'>
+       <div className='flex flex-col lg:flex-row justify-between'>
         {/*Filter Types */}
         <div>
           <p className='text-gray-600 font-bold'>Filter Types</p>
